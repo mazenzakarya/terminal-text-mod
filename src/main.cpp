@@ -4,6 +4,7 @@
 #include "TextColorTerminalLib.h"
 
 int main() {
+  initialize();
   moveTo(5, 20);
   selectColor(YELLOW);
   std::cout << "Menu" << std::endl;
